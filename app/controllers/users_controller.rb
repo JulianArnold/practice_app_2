@@ -22,7 +22,7 @@ class UsersController < ApplicationController
   end
 
   # POST /users
-  # POST /users.json
+  # POST /users.§
   def create
     @user = User.new(user_params)
 
